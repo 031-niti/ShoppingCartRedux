@@ -11,10 +11,10 @@ const AddProduct = () => {
         reset();
     }
     return (
-        <div className='py-4 max-w-7xl mx-auto rounded-xl shadow-xl border'>
+        <div className='py-4 max-w-7xl mx-auto rounded-xl shadow-xl border '>
             <h1 className='text-4xl text-center font-bold '>Add New Product</h1>
             <div className="card card-body justify-center items-center py-4 ">
-                <div className="mx-auto w-full max-w-sm">
+                <div className="mx-auto w-full max-w-sm"> 
                     <form className="space-y-3" onSubmit={handleSubmit(onSubmit)}>
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium leading-6 text-gray-900">Product name</label>

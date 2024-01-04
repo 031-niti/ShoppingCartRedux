@@ -18,6 +18,10 @@ export default {
           "warning": "#efd8bd",
           "error": "#e58b8b",
         },
+        fontFamily: {
+          'poppins': ['Poppins', 'sans-serif'],
+          'Prompt': ['Prompt', 'sans-serif']
+        },
       },
     ],
   },
