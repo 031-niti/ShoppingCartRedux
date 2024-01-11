@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
-import Page from './components/Page'
+import Page from './pages/Page'
 import { Provider } from 'react-redux'
 import {store} from './redux/store'
 
